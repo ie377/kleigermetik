@@ -203,7 +203,7 @@
         var d = r.doc;
         html +=
           '<div class="s-result"><h3><a href="' + d.u + '">' + esc(d.t) + "</a></h3>" +
-          '<div class="s-url">kleigermetik.ru/' + d.u + "</div>" +
+          '<div class="s-url">/' + d.u + "</div>" +
           "<p>" + snippet(d.b || d.d || "", toks) + "</p></div>";
       });
       resultsEl.innerHTML = html;
