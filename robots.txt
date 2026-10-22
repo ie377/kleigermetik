@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /poisk.html?q=
+
+Sitemap: https://kleigermetik.ru/sitemap.xml
